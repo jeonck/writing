@@ -30,8 +30,6 @@ jobs:
           hugo-version: ${{ env.HUGO_VERSION }}
           extended: true
 
-      - uses: actions/configure-pages@v5
-
       - name: Build site
         run: hugo --minify --baseURL "https://writing.metacog.co.kr/"
 
