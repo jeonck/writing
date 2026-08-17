@@ -1,5 +1,5 @@
 ---
-title: Writing Notes
+title: 문장 발췌 노트
 type: docs
 bookToc: false
 ---
