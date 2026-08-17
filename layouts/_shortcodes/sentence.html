@@ -1,0 +1,53 @@
+{{- $en := .Get "en" -}}
+{{- $ko := .Get "ko" -}}
+{{- $note := .Get "note" -}}
+{{- $source := .Get "source" -}}
+{{- $sourceURL := .Get "sourceURL" -}}
+{{- $app1 := .Get "app1" -}}
+{{- $app1ko := .Get "app1ko" -}}
+{{- $app2 := .Get "app2" -}}
+{{- $app2ko := .Get "app2ko" -}}
+<div class="sentence-card">
+  <div class="sentence-card__block sentence-card__block--excerpt">
+    <span class="sentence-card__label">발췌 문장</span>
+    <p class="sentence-card__en">{{ $en }}</p>
+    {{- with $ko }}
+    <p class="sentence-card__ko">{{ . }}</p>
+    {{- end }}
+    {{- with $source }}
+    <p class="sentence-card__source">
+      출처:
+      {{- with $sourceURL }} <a href="{{ . }}" rel="noopener noreferrer" target="_blank">{{ $source }}</a>
+      {{- else }} {{ $source }}
+      {{- end }}
+    </p>
+    {{- end }}
+  </div>
+
+  {{- with $note }}
+  <div class="sentence-card__block sentence-card__block--note">
+    <span class="sentence-card__label">한글 설명</span>
+    <div class="sentence-card__note">{{ . | markdownify }}</div>
+  </div>
+  {{- end }}
+
+  {{- if or $app1 $app2 }}
+  <div class="sentence-card__block sentence-card__block--apps">
+    <span class="sentence-card__label">응용 문장</span>
+    <ol class="sentence-card__apps">
+      {{- with $app1 }}
+      <li>
+        <p class="sentence-card__app-en">{{ . }}</p>
+        {{- with $app1ko }}<p class="sentence-card__app-ko">{{ . }}</p>{{ end }}
+      </li>
+      {{- end }}
+      {{- with $app2 }}
+      <li>
+        <p class="sentence-card__app-en">{{ . }}</p>
+        {{- with $app2ko }}<p class="sentence-card__app-ko">{{ . }}</p>{{ end }}
+      </li>
+      {{- end }}
+    </ol>
+  </div>
+  {{- end }}
+</div>

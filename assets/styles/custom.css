@@ -1,0 +1,127 @@
+/* writing.metacog.co.kr — 발췌 문장 카드 스타일 */
+
+:root {
+  --sentence-accent: var(--color-accent-note);
+  --sentence-app-accent: var(--color-accent-tip);
+}
+
+.sentence-card {
+  margin: 1.75rem 0;
+  border: 1px solid var(--gray-200);
+  border-left: 4px solid var(--sentence-accent);
+  border-radius: var(--border-radius);
+  background: var(--gray-100);
+  overflow: hidden;
+}
+
+.sentence-card__block {
+  padding: 0.9rem 1.1rem;
+}
+
+.sentence-card__block + .sentence-card__block {
+  border-top: 1px solid var(--gray-200);
+}
+
+.sentence-card__label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  font-size: var(--font-size-smallest);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--sentence-accent);
+}
+
+.sentence-card__block--apps .sentence-card__label {
+  color: var(--sentence-app-accent);
+}
+
+.sentence-card__en {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.sentence-card__ko {
+  margin: 0.4rem 0 0;
+  line-height: 1.7;
+  opacity: 0.85;
+}
+
+.sentence-card__source {
+  margin: 0.6rem 0 0;
+  font-size: var(--font-size-smallest);
+  opacity: 0.65;
+}
+
+.sentence-card__note {
+  line-height: 1.75;
+}
+
+.sentence-card__note > :first-child {
+  margin-top: 0;
+}
+
+.sentence-card__note > :last-child {
+  margin-bottom: 0;
+}
+
+.sentence-card__note ul,
+.sentence-card__note ol {
+  margin: 0.4rem 0;
+  padding-left: 1.2rem;
+}
+
+ol.sentence-card__apps {
+  margin: 0;
+  padding-left: 1.3rem;
+}
+
+ol.sentence-card__apps > li {
+  margin-bottom: 0.8rem;
+}
+
+ol.sentence-card__apps > li:last-child {
+  margin-bottom: 0;
+}
+
+.sentence-card__app-en {
+  margin: 0;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.sentence-card__app-ko {
+  margin: 0.25rem 0 0;
+  font-size: var(--font-size-smaller);
+  line-height: 1.7;
+  opacity: 0.8;
+}
+
+/* 홈 화면 요약 카드 */
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.home-grid__item {
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--border-radius);
+  background: var(--gray-100);
+}
+
+.home-grid__item h3 {
+  margin: 0 0 0.4rem;
+  font-size: 1rem;
+}
+
+.home-grid__item p {
+  margin: 0;
+  font-size: var(--font-size-smaller);
+  line-height: 1.6;
+  opacity: 0.8;
+}

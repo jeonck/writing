@@ -1,0 +1,43 @@
+baseURL = 'https://writing.metacog.co.kr/'
+title = 'Writing Notes'
+theme = 'hugo-book'
+
+locale = 'ko-kr'
+defaultContentLanguage = 'ko'
+hasCJKLanguage = true
+
+disablePathToLower = true
+enableGitInfo = false
+enableRobotsTXT = true
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 3
+  [markup.highlight]
+    style = 'base16-snazzy'
+    noClasses = false
+
+[params]
+  # light | dark | auto
+  BookTheme = 'auto'
+  BookToC = true
+  BookSection = 'docs'
+  BookSearch = true
+  BookComments = false
+  BookRepo = 'https://github.com/jeonck/writing'
+  BookEditLink = '{{ .Site.Params.BookRepo }}/edit/main/{{ .Path }}'
+  BookDateFormat = '2006-01-02'
+  description = '아티클에서 발췌한 문장을 한글 설명과 응용 문장 2개로 정리하는 영어 문장 노트'
+
+[[menu.after]]
+  name = 'GitHub'
+  url = 'https://github.com/jeonck/writing'
+  weight = 10
+
+[outputs]
+  home = ['html', 'rss']
+  page = ['html']
+  section = ['html']

@@ -1,0 +1,9 @@
+{{- /* 하위 페이지 목록. 제목 + 설명(description)을 카드로 렌더링한다. */ -}}
+<div class="home-grid">
+  {{- range .Page.Pages }}
+  <div class="home-grid__item">
+    <h3><a href="{{ .RelPermalink }}">{{ partial "docs/title" . }}</a></h3>
+    {{- with .Description }}<p>{{ . }}</p>{{ end }}
+  </div>
+  {{- end }}
+</div>
