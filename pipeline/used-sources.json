@@ -6,6 +6,13 @@
       "license": "CC BY 4.0",
       "date": "2026-08-17",
       "note": "content/docs/articles/cyber-capable-ai-agents.md"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/CSRF",
+      "title": "Cross-site request forgery (CSRF)",
+      "license": "CC BY-SA 2.5",
+      "date": "2026-08-18",
+      "note": "content/docs/articles/2026-08-18-csrf-defenses.md"
     }
   ]
 }
