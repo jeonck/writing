@@ -26,6 +26,44 @@
 arXiv 기본 라이선스(arXiv perpetual non-exclusive license)는 **재배포 허용이
 아니므로 쓰지 않는다.**
 
+### 클라우드 샌드박스의 망 제한 — 먼저 읽을 것
+
+루틴이 도는 샌드박스는 **송신 프록시가 대부분의 호스트를 막는다.** 확인된 사항
+(2026-08-18 실행):
+
+- 차단: `arxiv.org`, `en.wikipedia.org`, `developer.mozilla.org`, `www.cisa.gov`,
+  `nvlpubs.nist.gov` — WebFetch도 curl도 `EGRESS_BLOCKED` 또는 프록시 403이 난다
+- 통과: `raw.githubusercontent.com`, `api.github.com`
+
+그러므로 **GitHub에 원본이 있는 오픈 라이선스 문서**를 1순위로 쓴다. 원문 텍스트와
+LICENSE를 모두 `raw.githubusercontent.com`에서 직접 받아 확인할 수 있다.
+
+후보 (돌아가며 쓴다):
+
+| 리포지터리 | 내용 | 산문 라이선스 |
+| --- | --- | --- |
+| `mdn/content` | 웹 표준·보안·HTTP 가이드 | CC BY-SA 2.5 |
+| `kubernetes/website` | 쿠버네티스 개념·운영 문서 | CC BY 4.0 |
+| `github/docs` | GitHub 제품 문서 | CC BY 4.0 |
+| `rust-lang/book` | Rust 프로그래밍 서적 | MIT / Apache-2.0 |
+| `torvalds/linux` (`Documentation/`) | 커널 문서 | GPL-2.0 (인용 가능) |
+
+절차:
+
+1. `https://raw.githubusercontent.com/<repo>/main/LICENSE` (또는 `LICENSE.md`)로
+   **산문 라이선스를 먼저 확인한다.** 코드와 산문의 라이선스가 다른 경우가 많다.
+2. 본문 마크다운을 `raw.githubusercontent.com`에서 받아 문장을 고른다.
+3. 검증은 **raw URL**로 돌린다 (사람이 읽는 페이지는 샌드박스에서 접근이 막힌다):
+   `python3 pipeline/verify_excerpts.py <노트> https://raw.githubusercontent.com/...`
+4. 노트의 `sourceURL`은 **사람이 읽는 페이지 주소**를 쓴다. 리포지터리 경로에서
+   유도하되(`files/en-us/web/security/attacks/csrf/index.md` →
+   `https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/CSRF`) 샌드박스에서는
+   그 주소가 살아 있는지 확인할 수 없으니, 경로 규칙을 신중히 따르고 원본 리포지터리
+   링크도 함께 남긴다.
+
+이 목록에서 못 찾겠으면 다른 오픈 라이선스 리포지터리를 찾아도 된다. 차단된 호스트를
+반복해서 두드리느라 시간을 쓰지 말 것.
+
 주제는 사이트 주인의 관심사에 맞춘다 — AI/LLM, 보안, 네트워크, 감사·거버넌스,
 소프트웨어 엔지니어링. 매일 같은 우물만 파지 말고 출처 종류를 번갈아 쓴다.
 
