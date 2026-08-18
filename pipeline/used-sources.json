@@ -13,6 +13,13 @@
       "license": "CC BY-SA 2.5",
       "date": "2026-08-18",
       "note": "content/docs/articles/2026-08-18-csrf-defenses.md"
+    },
+    {
+      "url": "https://kubernetes.io/docs/concepts/security/security-checklist/",
+      "title": "Security Checklist",
+      "license": "CC BY 4.0",
+      "date": "2026-08-19",
+      "note": "content/docs/articles/2026-08-19-k8s-security-checklist.md"
     }
   ]
 }
