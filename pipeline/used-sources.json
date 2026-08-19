@@ -20,6 +20,13 @@
       "license": "CC BY 4.0",
       "date": "2026-08-19",
       "note": "content/docs/articles/2026-08-19-k8s-security-checklist.md"
+    },
+    {
+      "url": "https://doc.rust-lang.org/book/ch09-03-to-panic-or-not-to-panic.html",
+      "title": "The Rust Programming Language — 9.3 To panic! or Not to panic!",
+      "license": "MIT / Apache-2.0",
+      "date": "2026-08-20",
+      "note": "content/docs/articles/2026-08-20-rust-book-panic-or-result.md"
     }
   ]
 }
