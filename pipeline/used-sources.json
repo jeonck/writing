@@ -34,6 +34,13 @@
       "license": "GPL-2.0",
       "date": "2026-08-21",
       "note": "content/docs/articles/2026-08-21-kernel-submitting-patches.md"
+    },
+    {
+      "url": "https://google.github.io/eng-practices/review/reviewer/standard.html",
+      "title": "The Standard of Code Review",
+      "license": "CC BY 3.0",
+      "date": "2026-08-22",
+      "note": "content/docs/articles/2026-08-22-google-code-review-standard.md"
     }
   ]
 }
