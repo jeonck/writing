@@ -41,6 +41,13 @@
       "license": "CC BY 3.0",
       "date": "2026-08-22",
       "note": "content/docs/articles/2026-08-22-google-code-review-standard.md"
+    },
+    {
+      "url": "https://prometheus.io/docs/practices/alerting/",
+      "title": "Prometheus Documentation — Alerting (practices)",
+      "license": "Apache-2.0",
+      "date": "2026-08-23",
+      "note": "content/docs/articles/2026-08-23-prometheus-alerting-practices.md"
     }
   ]
 }
