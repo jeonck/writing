@@ -48,6 +48,13 @@
       "license": "Apache-2.0",
       "date": "2026-08-23",
       "note": "content/docs/articles/2026-08-23-prometheus-alerting-practices.md"
+    },
+    {
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html",
+      "title": "OWASP Cheat Sheet Series — Threat Modeling Cheat Sheet",
+      "license": "CC BY-SA 4.0",
+      "date": "2026-08-24",
+      "note": "content/docs/articles/2026-08-24-owasp-threat-modeling.md"
     }
   ]
 }
