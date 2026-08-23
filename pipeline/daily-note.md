@@ -150,8 +150,26 @@ hugo --minify
 ```bash
 git add content/docs/articles pipeline/used-sources.json
 git commit -m "note: <원문 제목 요약> 발췌"
-git push
 ```
+
+### 푸시 — detached HEAD를 먼저 확인할 것
+
+루틴이 도는 컨테이너는 리포지터리를 **detached HEAD 상태로 체크아웃**하고, 로컬
+`main` 브랜치 참조는 처음 클론한 시점에 멈춰 있다 (2026-08-24 실행에서 확인).
+그래서 `git push`나 `git push -u origin $(git rev-parse --abbrev-ref HEAD)`는
+`You must fully qualify the ref.`로 실패한다. 다음 순서를 쓴다.
+
+```bash
+git fetch origin main
+git merge-base --is-ancestor origin/main HEAD   # 내 커밋이 origin/main 위에 있는지 확인
+git push origin HEAD:refs/heads/main
+```
+
+`--is-ancestor`가 실패하면 그 사이에 origin이 앞서 나간 것이다. 강제로 밀지 말고
+`git rebase origin/main`으로 얹은 뒤 다시 확인한다.
+
+빌드는 푸시 뒤 GitHub Actions의 `Deploy to GitHub Pages` 실행이 success로 끝나는지
+확인한다. 샌드박스에 `hugo`가 없어 로컬 빌드로는 검증할 수 없기 때문이다.
 
 ## 7. 실패했을 때
 
