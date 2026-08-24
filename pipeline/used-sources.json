@@ -55,6 +55,13 @@
       "license": "CC BY-SA 4.0",
       "date": "2026-08-24",
       "note": "content/docs/articles/2026-08-24-owasp-threat-modeling.md"
+    },
+    {
+      "url": "https://opentelemetry.io/docs/concepts/observability-primer/",
+      "title": "OpenTelemetry Documentation — Observability primer",
+      "license": "CC BY 4.0",
+      "date": "2026-08-25",
+      "note": "content/docs/articles/2026-08-25-otel-observability-primer.md"
     }
   ]
 }
