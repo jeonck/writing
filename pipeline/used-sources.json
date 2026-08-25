@@ -62,6 +62,13 @@
       "license": "CC BY 4.0",
       "date": "2026-08-25",
       "note": "content/docs/articles/2026-08-25-otel-observability-primer.md"
+    },
+    {
+      "url": "https://modelcontextprotocol.io/specification/2025-06-18",
+      "title": "Model Context Protocol — Specification (2025-06-18)",
+      "license": "Apache-2.0 (일부 초기 기여분 MIT)",
+      "date": "2026-08-26",
+      "note": "content/docs/articles/2026-08-26-mcp-spec-security-principles.md"
     }
   ]
 }
