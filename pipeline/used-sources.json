@@ -83,6 +83,13 @@
       "license": "CC BY 4.0",
       "date": "2026-08-28",
       "note": "content/docs/articles/2026-08-28-open-source-governance.md"
+    },
+    {
+      "url": "https://response.pagerduty.com/after/effective_post_mortems/",
+      "title": "PagerDuty Incident Response Documentation — Effective Postmortems",
+      "license": "Apache-2.0",
+      "date": "2026-08-29",
+      "note": "content/docs/articles/2026-08-29-pagerduty-effective-postmortems.md"
     }
   ]
 }
