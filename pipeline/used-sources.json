@@ -90,6 +90,13 @@
       "license": "Apache-2.0",
       "date": "2026-08-29",
       "note": "content/docs/articles/2026-08-29-pagerduty-effective-postmortems.md"
+    },
+    {
+      "url": "https://12factor.net/dev-prod-parity",
+      "title": "The Twelve-Factor App — X. Dev/prod parity",
+      "license": "MIT",
+      "date": "2026-08-30",
+      "note": "content/docs/articles/2026-08-30-twelve-factor-dev-prod-parity.md"
     }
   ]
 }
