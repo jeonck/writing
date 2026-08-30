@@ -97,6 +97,13 @@
       "license": "MIT",
       "date": "2026-08-30",
       "note": "content/docs/articles/2026-08-30-twelve-factor-dev-prod-parity.md"
+    },
+    {
+      "url": "https://microsoft.github.io/code-with-engineering-playbook/automated-testing/",
+      "title": "Engineering Fundamentals Playbook — Testing",
+      "license": "CC BY 4.0",
+      "date": "2026-08-31",
+      "note": "content/docs/articles/2026-08-31-build-for-testing-logging.md"
     }
   ]
 }
