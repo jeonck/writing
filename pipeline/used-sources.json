@@ -104,6 +104,13 @@
       "license": "CC BY 4.0",
       "date": "2026-08-31",
       "note": "content/docs/articles/2026-08-31-build-for-testing-logging.md"
+    },
+    {
+      "url": "https://slsa.dev/spec/v1.2/principles",
+      "title": "SLSA Specification v1.2 — Guiding principles",
+      "license": "Community Specification License 1.0",
+      "date": "2026-09-01",
+      "note": "content/docs/articles/2026-09-01-slsa-guiding-principles.md"
     }
   ]
 }
