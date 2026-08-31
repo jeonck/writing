@@ -32,8 +32,20 @@ arXiv 기본 라이선스(arXiv perpetual non-exclusive license)는 **재배포 
 (2026-08-18 실행):
 
 - 차단: `arxiv.org`, `en.wikipedia.org`, `developer.mozilla.org`, `www.cisa.gov`,
-  `nvlpubs.nist.gov` — WebFetch도 curl도 `EGRESS_BLOCKED` 또는 프록시 403이 난다
-- 통과: `raw.githubusercontent.com`, `api.github.com`
+  `nvlpubs.nist.gov`, `slsa.dev` — WebFetch도 curl도 `EGRESS_BLOCKED` 또는 프록시 403이 난다
+- 통과: `raw.githubusercontent.com`
+- `api.github.com`은 **이 세션에 붙은 리포지터리(`jeonck/writing`)에만** 열린다. 남의
+  리포지터리를 조회하면 403 + `GitHub access to this repository is not enabled`가 온다.
+  GitHub Actions 결과 확인은 `mcp__github__actions_list`를 쓴다 (curl 아님).
+- **파일 경로를 모를 때는 얕은 클론이 가장 빠르다** (2026-09-01 실행에서 확인). raw URL로
+  경로를 찍어 맞히려 들지 말 것 — 404만 반복한다.
+
+  ```bash
+  git clone --depth 1 --filter=blob:none --no-checkout https://github.com/<owner>/<repo>.git
+  git -C <repo> ls-tree -r --name-only HEAD          # 전체 파일 목록
+  git -C <repo> fetch --depth 1 origin <branch>      # 릴리스 브랜치가 따로 있을 때
+  git -C <repo> show FETCH_HEAD:<path>               # 본문 읽기
+  ```
 
 그러므로 **GitHub에 원본이 있는 오픈 라이선스 문서**를 1순위로 쓴다. 원문 텍스트와
 LICENSE를 모두 `raw.githubusercontent.com`에서 직접 받아 확인할 수 있다.
