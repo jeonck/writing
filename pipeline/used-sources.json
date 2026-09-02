@@ -118,6 +118,13 @@
       "license": "CC BY 4.0",
       "date": "2026-09-02",
       "note": "content/docs/articles/2026-09-02-actions-secure-use.md"
+    },
+    {
+      "url": "https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/blob/main/2_0_vulns/LLM06_ExcessiveAgency.md",
+      "title": "OWASP Top 10 for LLM Applications — LLM06:2025 Excessive Agency",
+      "license": "CC BY-SA 4.0",
+      "date": "2026-09-03",
+      "note": "content/docs/articles/2026-09-03-owasp-llm-excessive-agency.md"
     }
   ]
 }
