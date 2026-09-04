@@ -132,6 +132,13 @@
       "license": "CC BY 4.0",
       "date": "2026-09-04",
       "note": "content/docs/articles/2026-09-04-curl-supply-chain-security.md"
+    },
+    {
+      "url": "https://github.com/cncf/tag-security/blob/main/community/resources/security-whitepaper/v2/cloud-native-security-whitepaper.md",
+      "title": "CNCF Cloud Native Security Whitepaper v2.0",
+      "license": "CC BY 4.0",
+      "date": "2026-09-05",
+      "note": "content/docs/articles/2026-09-05-cncf-security-assurance.md"
     }
   ]
 }
