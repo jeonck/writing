@@ -146,6 +146,13 @@
       "license": "CC BY 4.0",
       "date": "2026-09-06",
       "note": "content/docs/articles/2026-09-06-tuning-playbook-evidence.md"
+    },
+    {
+      "url": "https://grpc.io/docs/guides/deadlines/",
+      "title": "gRPC Documentation — Deadlines",
+      "license": "CC BY 4.0",
+      "date": "2026-09-07",
+      "note": "content/docs/articles/2026-09-07-grpc-deadlines.md"
     }
   ]
 }
