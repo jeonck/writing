@@ -160,6 +160,13 @@
       "license": "CC BY 4.0",
       "date": "2026-09-08",
       "note": "content/docs/articles/2026-09-08-etcd-faq-quorum.md"
+    },
+    {
+      "url": "https://istio.io/latest/docs/concepts/security/",
+      "title": "Istio Documentation — Security (concepts)",
+      "license": "Apache-2.0",
+      "date": "2026-09-09",
+      "note": "content/docs/articles/2026-09-09-istio-policy-precedence.md"
     }
   ]
 }
