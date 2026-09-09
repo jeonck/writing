@@ -167,6 +167,13 @@
       "license": "Apache-2.0",
       "date": "2026-09-09",
       "note": "content/docs/articles/2026-09-09-istio-policy-precedence.md"
+    },
+    {
+      "url": "https://adk.dev/safety/",
+      "title": "Agent Development Kit — Safety and Security for AI Agents",
+      "license": "Apache-2.0",
+      "date": "2026-09-10",
+      "note": "content/docs/articles/2026-09-10-adk-agent-safety.md"
     }
   ]
 }
