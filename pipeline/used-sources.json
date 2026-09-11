@@ -181,6 +181,13 @@
       "license": "Public Domain (문서 Copyright 절에서 직접 선언)",
       "date": "2026-09-11",
       "note": "content/docs/articles/2026-09-11-pep8-standard-with-exceptions.md"
+    },
+    {
+      "url": "https://openpolicyagent.org/docs/comparisons/access-control-systems",
+      "title": "OPA Documentation — Access Control Systems",
+      "license": "Apache-2.0",
+      "date": "2026-09-12",
+      "note": "content/docs/articles/2026-09-12-opa-access-control-scope.md"
     }
   ]
 }
