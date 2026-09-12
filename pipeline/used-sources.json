@@ -188,6 +188,13 @@
       "license": "Apache-2.0",
       "date": "2026-09-12",
       "note": "content/docs/articles/2026-09-12-opa-access-control-scope.md"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Caching",
+      "title": "MDN Web Docs — HTTP caching",
+      "license": "CC BY-SA 2.5",
+      "date": "2026-09-13",
+      "note": "content/docs/articles/2026-09-13-http-caching-scope-of-control.md"
     }
   ]
 }
