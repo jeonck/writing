@@ -195,6 +195,13 @@
       "license": "CC BY-SA 2.5",
       "date": "2026-09-13",
       "note": "content/docs/articles/2026-09-13-http-caching-scope-of-control.md"
+    },
+    {
+      "url": "https://kafka.apache.org/documentation/#design",
+      "title": "Apache Kafka Documentation — Design",
+      "license": "Apache-2.0",
+      "date": "2026-09-14",
+      "note": "content/docs/articles/2026-09-14-kafka-design-preconditions.md"
     }
   ]
 }
