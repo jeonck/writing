@@ -202,6 +202,13 @@
       "license": "Apache-2.0",
       "date": "2026-09-14",
       "note": "content/docs/articles/2026-09-14-kafka-design-preconditions.md"
+    },
+    {
+      "url": "https://github.com/18F/guides/blob/main/content/engineering/our-approach/on-call.md",
+      "title": "18F Engineering Practices Guide — On-call recommendations",
+      "license": "Public Domain (미국 연방정부 저작물) / CC0 1.0",
+      "date": "2026-09-15",
+      "note": "content/docs/articles/2026-09-15-18f-on-call-expectations.md"
     }
   ]
 }
