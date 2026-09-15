@@ -159,8 +159,34 @@ for m in re.finditer(r"<[^>]+>", raw):
 PY
 ```
 
-**검증기를 고치지 말고** 지워지지 않는 구간에서 다른 문장을 고른다. 애초에 `.md`나 `.html`
-원문을 1순위로 쓰면 이 함정을 피할 수 있다.
+**검증기를 고치지 말고** 지워지지 않는 구간에서 다른 문장을 고른다.
+
+### `.md` 원문에도 같은 함정이 있다 — 퀴즈 마커 `\>\>...<<`
+
+`.rst`만의 문제가 아니다. 강의 자료처럼 **퀴즈나 접기 블록 마커가 섞인 마크다운**도 같은 이유로
+통째로 지워진다 (2026-09-16 실행, OpenSSF LFD121). 그 문서는 퀴즈를 `\>\>질문<<` 형태로 적는데,
+한 퀴즈의 `<<`부터 다음 퀴즈의 `\>`까지가 태그로 오인되어 **퀴즈 사이 본문 1만 자가 매번 사라진다**
+(80만 자 중 37만 자가 이렇게 지워졌다). 고른 문장 5개 중 3개가 그 구간에 있어 `MISS`가 났다.
+
+원문이 `.md`인데 분명히 있는 문장이 `MISS`로 나오면, 위 진단 스니펫을 그대로 돌려 **살아남는
+구간**을 먼저 확인하고 그 안에서 문장을 고른다:
+
+```bash
+python3 - <<'PY'
+import re
+raw = open('원문.md', encoding='utf-8').read()
+spans = [(m.start(), m.end()) for m in re.finditer(r"<[^>]+>", raw)]
+surv, prev = [], 0
+for s, e in spans:
+    if s > prev: surv.append((prev, s))
+    prev = max(prev, e)
+surv.append((prev, len(raw)))
+print('살아남는 글자수', sum(b - a for a, b in surv), '/', len(raw))
+for a, b in surv:
+    if b - a > 3000:
+        print(b - a, '줄', raw[:a].count('\n') + 1, '|', re.sub(r'\s+', ' ', raw[a:a+80]))
+PY
+```
 
 이어서 빌드가 깨지지 않는지 본다. `hugo`가 있으면:
 
