@@ -209,6 +209,13 @@
       "license": "Public Domain (미국 연방정부 저작물) / CC0 1.0",
       "date": "2026-09-15",
       "note": "content/docs/articles/2026-09-15-18f-on-call-expectations.md"
+    },
+    {
+      "url": "https://github.com/ossf/secure-sw-dev-fundamentals/blob/main/docs/lfd121.md",
+      "title": "Developing Secure Software (LFD121) / Secure Software Development Fundamentals",
+      "license": "CC BY 4.0",
+      "date": "2026-09-16",
+      "note": "content/docs/articles/2026-09-16-openssf-verification-tool-limits.md"
     }
   ]
 }
