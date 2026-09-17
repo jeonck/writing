@@ -223,6 +223,13 @@
       "license": "BSD 3-Clause",
       "date": "2026-09-17",
       "note": "content/docs/articles/2026-09-17-sklearn-common-pitfalls.md"
+    },
+    {
+      "url": "https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/security/threat_model",
+      "title": "Envoy Proxy Documentation — Threat model",
+      "license": "Apache-2.0",
+      "date": "2026-09-18",
+      "note": "content/docs/articles/2026-09-18-envoy-threat-model-scope.md"
     }
   ]
 }
