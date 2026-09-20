@@ -237,6 +237,13 @@
       "license": "CC BY-SA 4.0",
       "date": "2026-09-19",
       "note": "content/docs/articles/2026-09-19-diataxis-quality-conditions.md"
+    },
+    {
+      "url": "https://cookbook.openai.com/articles/techniques-to-improve-reliability",
+      "title": "OpenAI Cookbook — Techniques to improve reliability",
+      "license": "MIT",
+      "date": "2026-09-21",
+      "note": "content/docs/articles/2026-09-21-cookbook-reliability-conditions.md"
     }
   ]
 }
