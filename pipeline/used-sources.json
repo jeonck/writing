@@ -244,6 +244,13 @@
       "license": "MIT",
       "date": "2026-09-21",
       "note": "content/docs/articles/2026-09-21-cookbook-reliability-conditions.md"
+    },
+    {
+      "url": "https://google.aip.dev/181",
+      "title": "AIP-181: Stability levels",
+      "license": "CC BY 4.0",
+      "date": "2026-09-22",
+      "note": "content/docs/articles/2026-09-22-aip-stability-levels.md"
     }
   ]
 }
