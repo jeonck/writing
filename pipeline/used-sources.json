@@ -265,6 +265,13 @@
       "license": "Public Domain (미국 연방정부 간행물, NIST Technical Series 재수록 허용)",
       "date": "2026-09-24",
       "note": "content/docs/articles/2026-09-24-nist-63-risk-driven-assurance.md"
+    },
+    {
+      "url": "https://github.com/tigerbeetle/tigerbeetle/blob/main/docs/TIGER_STYLE.md",
+      "title": "TigerStyle (TigerBeetle coding style)",
+      "license": "Apache-2.0",
+      "date": "2026-09-25",
+      "note": "content/docs/articles/2026-09-25-tigerstyle-cost-of-timing.md"
     }
   ]
 }
