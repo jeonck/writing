@@ -272,6 +272,13 @@
       "license": "Apache-2.0",
       "date": "2026-09-25",
       "note": "content/docs/articles/2026-09-25-tigerstyle-cost-of-timing.md"
+    },
+    {
+      "url": "https://github.com/kubernetes/community/blob/master/contributors/guide/owners.md",
+      "title": "Kubernetes Contributor Guide — OWNERS Files",
+      "license": "Apache-2.0",
+      "date": "2026-09-26",
+      "note": "content/docs/articles/2026-09-26-k8s-owners-review-roles.md"
     }
   ]
 }
