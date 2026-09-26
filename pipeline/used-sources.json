@@ -279,6 +279,13 @@
       "license": "Apache-2.0",
       "date": "2026-09-26",
       "note": "content/docs/articles/2026-09-26-k8s-owners-review-roles.md"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/dotnet/architecture/microservices/implement-resilient-applications/partial-failure-strategies",
+      "title": ".NET Architecture Guides — Strategies to handle partial failure",
+      "license": "CC BY 4.0",
+      "date": "2026-09-27",
+      "note": "content/docs/articles/2026-09-27-dotnet-partial-failure-strategies.md"
     }
   ]
 }
