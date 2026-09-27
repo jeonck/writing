@@ -286,6 +286,13 @@
       "license": "CC BY 4.0",
       "date": "2026-09-27",
       "note": "content/docs/articles/2026-09-27-dotnet-partial-failure-strategies.md"
+    },
+    {
+      "url": "https://github.com/NVIDIA/NeMo-Guardrails/blob/main/docs/resources/security/guidelines.mdx",
+      "title": "NeMo Guardrails Docs — Security Guidelines for LLM Integrations",
+      "license": "Apache-2.0",
+      "date": "2026-09-28",
+      "note": "content/docs/articles/2026-09-28-nemo-guardrails-integration-assumptions.md"
     }
   ]
 }
