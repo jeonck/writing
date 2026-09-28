@@ -293,6 +293,13 @@
       "license": "Apache-2.0",
       "date": "2026-09-28",
       "note": "content/docs/articles/2026-09-28-nemo-guardrails-integration-assumptions.md"
+    },
+    {
+      "url": "https://github.com/spiffe/spiffe/blob/main/standards/SPIFFE.md",
+      "title": "Secure Production Identity Framework for Everyone (SPIFFE) — standards/SPIFFE.md",
+      "license": "Apache-2.0",
+      "date": "2026-09-29",
+      "note": "content/docs/articles/2026-09-29-spiffe-workload-identity.md"
     }
   ]
 }
