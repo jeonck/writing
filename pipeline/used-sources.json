@@ -300,6 +300,13 @@
       "license": "Apache-2.0",
       "date": "2026-09-29",
       "note": "content/docs/articles/2026-09-29-spiffe-workload-identity.md"
+    },
+    {
+      "url": "https://github.com/pytorch/pytorch/blob/main/docs/source/notes/numerical_accuracy.md",
+      "title": "PyTorch Documentation — Numerical accuracy",
+      "license": "BSD 3-Clause",
+      "date": "2026-09-30",
+      "note": "content/docs/articles/2026-09-30-pytorch-numerical-accuracy.md"
     }
   ]
 }
