@@ -307,6 +307,13 @@
       "license": "BSD 3-Clause",
       "date": "2026-09-30",
       "note": "content/docs/articles/2026-09-30-pytorch-numerical-accuracy.md"
+    },
+    {
+      "url": "https://kubernetes.io/docs/concepts/services-networking/network-policies/",
+      "title": "Kubernetes Documentation — Network Policies",
+      "license": "CC BY 4.0",
+      "date": "2026-10-01",
+      "note": "content/docs/articles/2026-10-01-k8s-network-policy-scope.md"
     }
   ]
 }
