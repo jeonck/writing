@@ -314,6 +314,13 @@
       "license": "CC BY 4.0",
       "date": "2026-10-01",
       "note": "content/docs/articles/2026-10-01-k8s-network-policy-scope.md"
+    },
+    {
+      "url": "https://letsencrypt.org/docs/challenge-types/",
+      "title": "Let's Encrypt Documentation — Challenge Types",
+      "license": "MPL-2.0 (리포지터리 LICENSE.txt)",
+      "date": "2026-10-02",
+      "note": "content/docs/articles/2026-10-02-letsencrypt-challenge-types.md"
     }
   ]
 }
