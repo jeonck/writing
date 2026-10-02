@@ -321,6 +321,13 @@
       "license": "MPL-2.0 (리포지터리 LICENSE.txt)",
       "date": "2026-10-02",
       "note": "content/docs/articles/2026-10-02-letsencrypt-challenge-types.md"
+    },
+    {
+      "url": "https://chromium.googlesource.com/chromium/src/+/main/docs/security/rule-of-2.md",
+      "title": "Chromium Docs — The Rule Of 2",
+      "license": "BSD 3-Clause (chromium/chromium LICENSE)",
+      "date": "2026-10-03",
+      "note": "content/docs/articles/2026-10-03-chromium-rule-of-2.md"
     }
   ]
 }
