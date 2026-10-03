@@ -328,6 +328,13 @@
       "license": "BSD 3-Clause (chromium/chromium LICENSE)",
       "date": "2026-10-03",
       "note": "content/docs/articles/2026-10-03-chromium-rule-of-2.md"
+    },
+    {
+      "url": "https://go.dev/doc/telemetry",
+      "title": "Go Documentation — Go Telemetry",
+      "license": "CC BY 4.0 (go.dev Copyright 페이지에서 선언)",
+      "date": "2026-10-04",
+      "note": "content/docs/articles/2026-10-04-go-telemetry-opt-in.md"
     }
   ]
 }
