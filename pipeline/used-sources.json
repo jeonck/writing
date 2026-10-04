@@ -335,6 +335,13 @@
       "license": "CC BY 4.0 (go.dev Copyright 페이지에서 선언)",
       "date": "2026-10-04",
       "note": "content/docs/articles/2026-10-04-go-telemetry-opt-in.md"
+    },
+    {
+      "url": "https://github.com/cloudevents/spec/blob/main/cloudevents/primer.md",
+      "title": "CloudEvents Primer",
+      "license": "Apache-2.0 (리포지터리 LICENSE, Copyright 2018 CloudEvents Authors)",
+      "date": "2026-10-05",
+      "note": "content/docs/articles/2026-10-05-cloudevents-primer-design-decisions.md"
     }
   ]
 }
