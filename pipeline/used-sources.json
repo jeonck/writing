@@ -342,6 +342,13 @@
       "license": "Apache-2.0 (리포지터리 LICENSE, Copyright 2018 CloudEvents Authors)",
       "date": "2026-10-05",
       "note": "content/docs/articles/2026-10-05-cloudevents-primer-design-decisions.md"
+    },
+    {
+      "url": "https://www.postgresql.org/docs/current/mvcc.html",
+      "title": "PostgreSQL Documentation — Concurrency Control (MVCC)",
+      "license": "PostgreSQL License (COPYRIGHT: 소프트웨어와 그 문서의 복제·배포 허용)",
+      "date": "2026-10-06",
+      "note": "content/docs/articles/2026-10-06-postgres-concurrency-guarantees.md"
     }
   ]
 }
