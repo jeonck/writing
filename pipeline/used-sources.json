@@ -349,6 +349,13 @@
       "license": "PostgreSQL License (COPYRIGHT: 소프트웨어와 그 문서의 복제·배포 허용)",
       "date": "2026-10-06",
       "note": "content/docs/articles/2026-10-06-postgres-concurrency-guarantees.md"
+    },
+    {
+      "url": "https://github.com/ossf/oss-vulnerability-guide/blob/main/maintainer-guide.md",
+      "title": "Guide to implementing a coordinated vulnerability disclosure process for open source projects (OpenSSF)",
+      "license": "CC BY 4.0 (리포지터리 LICENSE.md)",
+      "date": "2026-10-07",
+      "note": "content/docs/articles/2026-10-07-ossf-cvd-maintainer-guide.md"
     }
   ]
 }
