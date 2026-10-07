@@ -356,6 +356,13 @@
       "license": "CC BY 4.0 (리포지터리 LICENSE.md)",
       "date": "2026-10-07",
       "note": "content/docs/articles/2026-10-07-ossf-cvd-maintainer-guide.md"
+    },
+    {
+      "url": "https://github.com/google/fuzzing/blob/master/docs/good-fuzz-target.md",
+      "title": "Google Fuzzing Forum — What makes a good fuzz target",
+      "license": "Apache-2.0 (리포지터리 LICENSE)",
+      "date": "2026-10-08",
+      "note": "content/docs/articles/2026-10-08-fuzzing-thresholds-and-metrics.md"
     }
   ]
 }
