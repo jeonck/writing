@@ -370,6 +370,13 @@
       "license": "Apache-2.0 (리포지터리 LICENSE, ASF)",
       "date": "2026-10-09",
       "note": "content/docs/articles/2026-10-09-airflow-no-magic-recipes.md"
+    },
+    {
+      "url": "https://data-privacy-stack.github.io/presidio/faq/",
+      "title": "Presidio — Frequently Asked Questions (FAQ)",
+      "license": "MIT (리포지터리 LICENSE, Copyright Presidio Contributors)",
+      "date": "2026-10-10",
+      "note": "content/docs/articles/2026-10-10-presidio-no-guarantee.md"
     }
   ]
 }
