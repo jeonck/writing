@@ -377,6 +377,13 @@
       "license": "MIT (리포지터리 LICENSE, Copyright Presidio Contributors)",
       "date": "2026-10-10",
       "note": "content/docs/articles/2026-10-10-presidio-no-guarantee.md"
+    },
+    {
+      "url": "https://argo-cd.readthedocs.io/en/stable/user-guide/best_practices/",
+      "title": "Argo CD Documentation — Best Practices",
+      "license": "Apache-2.0 (리포지터리 LICENSE, Copyright 2017-2018 The Argo Authors)",
+      "date": "2026-10-11",
+      "note": "content/docs/articles/2026-10-11-argocd-config-repo-separation.md"
     }
   ]
 }
