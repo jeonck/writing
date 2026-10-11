@@ -384,6 +384,13 @@
       "license": "Apache-2.0 (리포지터리 LICENSE, Copyright 2017-2018 The Argo Authors)",
       "date": "2026-10-11",
       "note": "content/docs/articles/2026-10-11-argocd-config-repo-separation.md"
+    },
+    {
+      "url": "https://openbao.org/docs/internals/security/",
+      "title": "OpenBao Documentation — Security model",
+      "license": "MPL-2.0",
+      "date": "2026-10-12",
+      "note": "content/docs/articles/2026-10-12-openbao-security-model.md"
     }
   ]
 }
