@@ -391,6 +391,13 @@
       "license": "MPL-2.0",
       "date": "2026-10-12",
       "note": "content/docs/articles/2026-10-12-openbao-security-model.md"
+    },
+    {
+      "url": "https://abseil.io/about/compatibility",
+      "title": "Abseil Compatibility Guidelines",
+      "license": "Apache-2.0 (리포지터리 abseil/abseil.github.io LICENSE)",
+      "date": "2026-10-13",
+      "note": "content/docs/articles/2026-10-13-abseil-compatibility-boundaries.md"
     }
   ]
 }
