@@ -405,6 +405,13 @@
       "license": "MIT (리포지터리 LICENSE, Copyright Node.js contributors — software and associated documentation files)",
       "date": "2026-10-14",
       "note": "content/docs/articles/2026-10-14-nodejs-objections-and-consensus.md"
+    },
+    {
+      "url": "https://apple.github.io/foundationdb/anti-features.html",
+      "title": "FoundationDB Documentation — Anti-Features",
+      "license": "Apache-2.0 (리포지터리 apple/foundationdb LICENSE)",
+      "date": "2026-10-15",
+      "note": "content/docs/articles/2026-10-15-foundationdb-anti-features.md"
     }
   ]
 }
