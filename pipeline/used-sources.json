@@ -412,6 +412,13 @@
       "license": "Apache-2.0 (리포지터리 apple/foundationdb LICENSE)",
       "date": "2026-10-15",
       "note": "content/docs/articles/2026-10-15-foundationdb-anti-features.md"
+    },
+    {
+      "url": "https://github.com/cisagov/development-guide/blob/develop/open-source-policy/policy.md",
+      "title": "CISA: An open source agency (cisagov/development-guide open source policy)",
+      "license": "Public Domain (미국 연방정부 저작물) / CC0 1.0",
+      "date": "2026-10-16",
+      "note": "content/docs/articles/2026-10-16-cisa-open-source-policy.md"
     }
   ]
 }
