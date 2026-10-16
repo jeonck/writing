@@ -419,6 +419,13 @@
       "license": "Public Domain (미국 연방정부 저작물) / CC0 1.0",
       "date": "2026-10-16",
       "note": "content/docs/articles/2026-10-16-cisa-open-source-policy.md"
+    },
+    {
+      "url": "https://docs.vllm.ai/en/latest/design/metrics/",
+      "title": "vLLM Documentation — Metrics (design)",
+      "license": "Apache-2.0 (리포지터리 vllm-project/vllm LICENSE)",
+      "date": "2026-10-17",
+      "note": "content/docs/articles/2026-10-17-vllm-metrics-design.md"
     }
   ]
 }
