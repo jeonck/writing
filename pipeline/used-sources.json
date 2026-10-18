@@ -433,6 +433,13 @@
       "license": "MIT (리포지터리 LICENSE.md, Copyright 2022 Temporal Technologies — software and associated documentation files)",
       "date": "2026-10-18",
       "note": "content/docs/articles/2026-10-18-temporal-error-handling.md"
+    },
+    {
+      "url": "https://github.com/mlcommons/inference_policies/blob/master/inference_rules.adoc",
+      "title": "MLPerf Inference Rules",
+      "license": "Apache-2.0 (리포지터리 LICENSE.md, MLCommons)",
+      "date": "2026-10-19",
+      "note": "content/docs/articles/2026-10-19-mlperf-inference-rules.md"
     }
   ]
 }
