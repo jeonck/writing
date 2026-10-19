@@ -440,6 +440,13 @@
       "license": "Apache-2.0 (리포지터리 LICENSE.md, MLCommons)",
       "date": "2026-10-19",
       "note": "content/docs/articles/2026-10-19-mlperf-inference-rules.md"
+    },
+    {
+      "url": "https://inspect.aisi.org.uk/scoring-policy.html",
+      "title": "Inspect (UK AISI) — Scoring Policy",
+      "license": "MIT (리포지터리 LICENSE, Copyright 2024 UK AI Security Institute — software and associated documentation files)",
+      "date": "2026-10-20",
+      "note": "content/docs/articles/2026-10-20-inspect-scoring-policy.md"
     }
   ]
 }
