@@ -447,6 +447,13 @@
       "license": "MIT (리포지터리 LICENSE, Copyright 2024 UK AI Security Institute — software and associated documentation files)",
       "date": "2026-10-20",
       "note": "content/docs/articles/2026-10-20-inspect-scoring-policy.md"
+    },
+    {
+      "url": "https://doc.libsodium.org/secret-key_cryptography/aead",
+      "title": "libsodium Documentation — Authenticated Encryption with Additional Data",
+      "license": "ISC",
+      "date": "2026-10-21",
+      "note": "content/docs/articles/2026-10-21-libsodium-aead-limits.md"
     }
   ]
 }
