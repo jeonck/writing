@@ -454,6 +454,13 @@
       "license": "ISC",
       "date": "2026-10-21",
       "note": "content/docs/articles/2026-10-21-libsodium-aead-limits.md"
+    },
+    {
+      "url": "https://www.apache.org/legal/release-policy.html",
+      "title": "Apache Software Foundation — Release Policy",
+      "license": "Apache License 2.0",
+      "date": "2026-10-22",
+      "note": "content/docs/articles/2026-10-22-asf-release-policy.md"
     }
   ]
 }
