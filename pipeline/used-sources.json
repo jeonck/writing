@@ -461,6 +461,13 @@
       "license": "Apache License 2.0",
       "date": "2026-10-22",
       "note": "content/docs/articles/2026-10-22-asf-release-policy.md"
+    },
+    {
+      "url": "https://bazel.build/basics/task-based-builds",
+      "title": "Bazel Documentation — Task-Based Build Systems",
+      "license": "Apache-2.0 (리포지터리 bazelbuild/bazel LICENSE)",
+      "date": "2026-10-23",
+      "note": "content/docs/articles/2026-10-23-bazel-task-based-builds.md"
     }
   ]
 }
