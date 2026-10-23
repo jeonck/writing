@@ -468,6 +468,13 @@
       "license": "Apache-2.0 (리포지터리 bazelbuild/bazel LICENSE)",
       "date": "2026-10-23",
       "note": "content/docs/articles/2026-10-23-bazel-task-based-builds.md"
+    },
+    {
+      "url": "https://zulip.readthedocs.io/en/latest/contributing/code-reviewing.html",
+      "title": "Reviewing Zulip code (Zulip Contributor Documentation)",
+      "license": "Apache-2.0 (리포지터리 zulip/zulip LICENSE)",
+      "date": "2026-10-24",
+      "note": "content/docs/articles/2026-10-24-zulip-code-review-communication.md"
     }
   ]
 }
