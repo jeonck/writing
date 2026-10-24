@@ -475,6 +475,13 @@
       "license": "Apache-2.0 (리포지터리 zulip/zulip LICENSE)",
       "date": "2026-10-24",
       "note": "content/docs/articles/2026-10-24-zulip-code-review-communication.md"
+    },
+    {
+      "url": "https://linkerd.io/2-edge/reference/circuit-breaking/",
+      "title": "Linkerd Documentation — Circuit Breaking",
+      "license": "Apache-2.0 (리포지터리 linkerd/website LICENSE)",
+      "date": "2026-10-25",
+      "note": "content/docs/articles/2026-10-25-linkerd-circuit-breaking.md"
     }
   ]
 }
